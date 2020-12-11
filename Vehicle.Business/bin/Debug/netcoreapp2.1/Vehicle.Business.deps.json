@@ -1,0 +1,63 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v2.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v2.1": {
+      "Vehicle.Business/1.0.0": {
+        "dependencies": {
+          "Vehicle.Data": "1.0.0",
+          "Vehicle.Entity": "1.0.0"
+        },
+        "runtime": {
+          "Vehicle.Business.dll": {}
+        }
+      },
+      "Vehicle.Core/1.0.0": {
+        "runtime": {
+          "Vehicle.Core.dll": {}
+        }
+      },
+      "Vehicle.Data/1.0.0": {
+        "dependencies": {
+          "Vehicle.Entity": "1.0.0"
+        },
+        "runtime": {
+          "Vehicle.Data.dll": {}
+        }
+      },
+      "Vehicle.Entity/1.0.0": {
+        "dependencies": {
+          "Vehicle.Core": "1.0.0"
+        },
+        "runtime": {
+          "Vehicle.Entity.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Vehicle.Business/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Vehicle.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Vehicle.Data/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Vehicle.Entity/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
